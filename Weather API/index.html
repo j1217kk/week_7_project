@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="../static/css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+
+<title>Weather Report</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id = "title-section">
+            <div class="col-12 col-md-12">
+                <h1 class="title">Weather Report</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container" id = "instruction-section">
+        <div class="row" id = "title-section">
+            <div class="col-12 col-md-12">
+                <h3>Which city would you like to check the weather for?</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="input-section">
+        <div class="row">
+            <div class="class col-12 col-md-12">
+                <form name="inputData" id="input-data">
+                    <label for="city"><b>City: </b></label>
+                    <input type="text" name="city" id="city-input" placeholder="Ex: London">
+                    <label for="country-code"><b>Country Code: </b></label>
+                    <input type="text" name="country" id="country-input" placeholder="Ex: UK">
+                    <div class="container" id="input-section">
+                        <div class="row">
+                            <button type="submit" id="check-button">Check Weather!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="result-section">
+        <div class="row">
+            <h2 id="city-display"></h1>
+        </div>  
+    </div>
+    <div class="container" id="result-section">
+        <div class="row">
+            <h3 id="low-title"></h3>
+            <h3 id="high-title"></h3>
+        </div>  
+    </div>
+    <div class="container" id="result-section">
+        <div class="row">
+            <h3 id="forecast-title"></h3>
+        </div>  
+    </div>
+    <div class="container" id="result-section">
+        <div class="row">
+            <h3 id="humidity-title"></h3>
+        </div>  
+    </div>
+    <div class="container" id="result-section">
+        <div class="row">
+
+        </div>  
+    </div>
+    
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

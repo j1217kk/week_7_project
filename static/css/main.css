@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+#title-section {
+    margin-top: 5vh;
+}
+
+#main-section {
+    display:block;
+    align-items: center;
+}
+#instruction-section {
+    margin-top: 5vh;
+}
+
+#city-input {
+    margin-top:2vh;
+    width:30vh;
+
+}
+
+#country-input {
+    margin-top:2vh;
+    width: 10vh;
+
+}
+
+#check-button {
+    margin-top:2vh;
+
+}
+
+#check-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.8;
+}
+
+#result-section {
+    margin-top: 5vh;
+    justify-content: center;
+    
+}
+
+#city-display {
+    color: darkorange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#low-title {
+    padding-left: 20%;
+}
+#high-title {
+    padding-left: 20%;
+}
